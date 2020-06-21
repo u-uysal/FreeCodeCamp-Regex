@@ -11,4 +11,7 @@ shortHand.test(varNames); // Returns true
 
 let quoteSample = "The five boxing wizards jump quickly.";
 let alphabetRegexV2 = /\w/g; // Change this line
+
+let nonAlphabetRegex = /\W/g; // opposite of the line 13
+
 let result = quoteSample.match(alphabetRegexV2).length;
