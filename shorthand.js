@@ -6,3 +6,9 @@ let movieName = "2001: A Space Odyssey";
 let numRegex = /\d/g;
 let result = movieName.match(numRegex).length;
 console.log(result) //4
+
+
+let numString = "Your sandwich will be $5.00";
+let noNumRegex = /\D/g; // match non-numbers
+let result = numString.match(noNumRegex).length;
+console.log(result);
